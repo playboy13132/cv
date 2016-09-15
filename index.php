@@ -45,9 +45,9 @@
 			</div>
 		</article>
 	</section>
-		<br/>
-		<hr>
-			<h2 align="center">Expérience</h2>
+	<br/>
+	<hr>
+		<h2 align="center">Expérience</h2>
 		<hr>
 		<br/>
 		<section id="exp" class="a_propos">
