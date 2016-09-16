@@ -20,7 +20,7 @@
 	<section id="about" class="a_propos">
 		<article>
 			<p>Je m'appel Anthony Leborgne,j'ai actuellement 18 ans, je suis passionné d'informatique, j'ai commencé la programmation informatique depuis quelques mois ainsi que la sécuriter informatique depuis quelques jours, j'ai joué au foot pendant quelques années. Je suis passionné aussi de jeux vidéos, et j'aime regarder des séries ou des films sur mon ordinateur<br/>
-			<a href='https://github.com/playboy13132'><img src="img/github.jpg" 
+			<a href='https://github.com/playboy13132' target="_blank"><img src="img/github.jpg" 
 			alt="github" title="github" width="100" style="border-radius:20px;"></a></p>
 			
 		</article>
