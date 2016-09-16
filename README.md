@@ -1,2 +1,2 @@
-# cv
-cv en ligne
+cv en développement
+programmation en php et en html
