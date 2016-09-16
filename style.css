@@ -1,0 +1,130 @@
+*{
+	box-sizing: border-box;
+}
+
+nav{
+	margin-top: -16px;
+	margin-left: -12px;
+	background: black;
+	position: static;
+}
+
+nav ul{
+	padding: 100px;
+	margin-top:10px;
+}
+
+nav li{
+	list-style-type: none;
+	float:left;
+}
+
+nav li:hover{
+	background-color: #2998cd;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 0px 10px;
+	font-size:20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.a_propos{
+	background-color: #2998cd;
+	padding:200px;
+	margin-top: -16px;
+	margin-left:-9px;
+}
+
+.moi{
+	padding:0;
+	max-width: 30%;
+	margin-top:-170px;
+	margin-left: 700px;
+}
+
+.img1, .img2, .img3,.img4{
+	display: inline-flex;
+	flex-direction: row;
+	padding: 30px 100px;
+	margin-left: 30px;
+}
+
+label{
+	font-size: 20px;
+}
+
+input[type="text"]{
+	width:100%;
+	border: none;
+	color:white;
+	border-bottom: 1px solid black;
+	background-color: #2998cd;
+}
+
+input[type="text"]:focus{
+	outline: none;
+}
+
+input[type="email"]{
+	width:100%;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: #2998cd;
+	color:white;
+}
+
+input[type="email"]:focus{
+	outline: none;
+}
+
+textarea{
+	width:100%;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: #2998cd;
+	color:white;
+}
+
+textarea:focus{
+	outline: none;
+}
+
+input[type="submit"]{
+	width:100px;
+	background-color: black;
+	color: white;
+	border:none;
+}
+
+p{
+	font-size: 20px;
+}
+
+img, i{
+	padding: 16px 15px;
+}
+
+h2{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+@media screen and(min-width: 400px){
+	p{
+		padding:0;
+
+	}
+	.moi{
+		margin-left: -650px;
+	}
+	img{
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+		margin-left:0;
+	}
+}
