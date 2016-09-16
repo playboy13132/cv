@@ -20,7 +20,8 @@
 	<section id="about" class="a_propos">
 		<article>
 			<p>Je m'appel Anthony Leborgne,j'ai actuellement 18 ans, je suis passionné d'informatique, j'ai commencé la programmation informatique depuis quelques mois ainsi que la sécuriter informatique depuis quelques jours, j'ai joué au foot pendant quelques années. Je suis passionné aussi de jeux vidéos, et j'aime regarder des séries ou des films sur mon ordinateur<br/>
-			</p>
+			<a href='https://github.com/playboy13132'><img src="img/github.jpg" 
+			alt="github" title="github" width="100" style="border-radius:20px;"></a></p>
 			
 		</article>
 	</section>
@@ -45,16 +46,16 @@
 			</div>
 		</article>
 	</section>
-	<br/>
-	<hr>
-		<h2 align="center">Expérience</h2>
+		<br/>
+		<hr>
+			<h2 align="center">Expérience</h2>
 		<hr>
 		<br/>
 		<section id="exp" class="a_propos">
 			<article align="center">
-				<h4>2015-2016</h4>
+				<h2>2016</h2>
 				<p>Stage de 3 semaine en développement informatique</p><br/>
-				<h4>2016-2017</h4>
+				<h2>2016</h2>
 				<p>stage de 3 semaine en maintenance</p>
 			</article>
 		</section>
@@ -111,10 +112,12 @@
 				?>
 	<section id="contact" class="a_propos">
 		<article>
-	
 				<form method="POST" action="">
+					<label>Nom:</label><br/><br/>
 					<input type="text" name="nom" placeholder="votre nom" value="<?php if(isset($_POST['nom'])) {echo $_POST['nom']; } ?>"><br/><br/>
+					<label>Mail:</label><br/><br/>
 					<input type="email" name="mail" placeholder="votre email" value="<?php if(isset($_POST['mail'])) {echo $_POST['mail']; } ?>"><br/><br/>
+					<label>Message:</label><br/><br/>
 					<textarea name="message" placeholder="votre message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br/><br/>
 					<input type="submit" value="Envoyer" name="mailform">
 			</form>
