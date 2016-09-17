@@ -21,7 +21,7 @@
 		<article>
 			<p>Je m'appel Anthony Leborgne,j'ai actuellement 18 ans, je suis passionné d'informatique, j'ai commencé la programmation informatique depuis quelques mois ainsi que la sécuriter informatique depuis quelques jours, j'ai joué au foot pendant quelques années. Je suis passionné aussi de jeux vidéos, et j'aime regarder des séries ou des films sur mon ordinateur<br/>
 			<a href='https://github.com/playboy13132' target="_blank"><img src="img/github.jpg" 
-			alt="github" title="github" width="100" style="border-radius:20px;"></a></p>
+			alt="github" title="github" width="100" style="border-radius:20px;" class="github"></a></p>
 			
 		</article>
 	</section>
@@ -39,10 +39,10 @@
 	<section class="a_propos">
 		<article>
 			<div id="comp" class="img1">
-				<img src="img/html.png" alt="html" title="html" width="500" style="border-radius:20px;">
+				<img src="img/html.png" class="html" alt="html" title="html" width="500" style="border-radius:20px;">
 			</div>
 			<div class="img2">
-				<img src="img/php.jpg" alt="php" title="php" width="500" style="border-radius:20px;">
+				<img src="img/php.jpg" class="php" alt="php" title="php" width="500" style="border-radius:20px;">
 			</div>
 		</article>
 	</section>
@@ -112,14 +112,14 @@
 				?>
 	<section id="contact" class="a_propos">
 		<article>
-				<form method="POST" action="">
-					<label>Nom:</label><br/><br/>
-					<input type="text" name="nom" placeholder="votre nom" value="<?php if(isset($_POST['nom'])) {echo $_POST['nom']; } ?>"><br/><br/>
-					<label>Mail:</label><br/><br/>
-					<input type="email" name="mail" placeholder="votre email" value="<?php if(isset($_POST['mail'])) {echo $_POST['mail']; } ?>"><br/><br/>
-					<label>Message:</label><br/><br/>
-					<textarea name="message" placeholder="votre message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br/><br/>
-					<input type="submit" value="Envoyer" name="mailform">
+			<form method="POST" action="">
+				<label>Nom:</label><br/><br/>
+				<input type="text" name="nom" placeholder="votre nom" value="<?php if(isset($_POST['nom'])) {echo $_POST['nom']; } ?>"><br/><br/>
+				<label>Mail:</label><br/><br/>
+				<input type="email" name="mail" placeholder="votre email" value="<?php if(isset($_POST['mail'])) {echo $_POST['mail']; } ?>"><br/><br/>
+				<label>Message:</label><br/><br/>
+				<textarea name="message" placeholder="votre message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br/><br/>
+				<input type="submit" value="Envoyer" name="mailform">
 			</form>
 			<?php if(isset($msg)){echo $msg;} ?>
 		</article>
