@@ -92,6 +92,20 @@
 	<hr>
 	<br/>
 	<br/>
+	<?php
+		if(isset($_POST['mailform']))
+		{
+	
+			if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message']))	
+			{
+	
+				mail("viciousano@gmail.com", 'Contact - Mon site','nom: ' .$_POST['nom']. ' mail: '.$_POST['mail']. ' message: '.
+								 $_POST['message']);
+			} else {
+				$msg = "Tous les champs doivent être completer";
+			}
+		}
+	?>
 	<section id="contact" class="a_propos">
 		<article>
 			<form method="POST" action="">
