@@ -113,10 +113,12 @@ h2{
 }
 
 @media screen and (max-width: 680px){
+	*{
+		box-sizing: border-box;
+	}
 	p{
 		padding:0;
 		line-height: 5;
-
 	}
 
 	.moi{
@@ -128,10 +130,23 @@ h2{
 	p{
 		font-size: 16px;
 	}
-	img{
+	.img1,.img2, .img3,.img4{
 		margin-left: -200px;
 		max-width: 100%;
+		display: flex;
+		flex-direction: row;
 		width:100px;
 		height: 100px;
+	}
+	.github{
+		margin-left: 30px;
+		max-width: 100%;
+		width: 50%;
+		display: block;
+	}
+	img .html, img .php{
+		width: 400px;
+		margin-left: -100px;
+		padding: 15px 50px;
 	}
 }
