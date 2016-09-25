@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-FR">
 <head>
 	<title>cv | Anthony Leborgne</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="description" content="je m'appel anthony leborgne et je fais ce cv en ligne.">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" href="img/Anonymous.ico">
 </head>
@@ -106,18 +107,19 @@
 			}
 		}
 	?>
-	<section id="contact" class="a_propos">
+<section id="contact" class="a_propos">
 		<article>
 			<form method="POST" action="">
 				<label>Nom:</label><br/><br/>
-				<input type="text" name="nom" placeholder="votre nom" value=""><br/><br/>
+				<input type="text" name="nom" placeholder="votre nom" value="<?php if(isset($_POST['nom'])) {echo $_POST['nom']; } ?>"><br/><br/>
 				<label>Mail:</label><br/><br/>
-				<input type="email" name="mail" placeholder="votre email" value=""><br/><br/>
+				<input type="email" name="mail" placeholder="votre email" value="<?php if(isset($_POST['mail'])) {echo $_POST['mail']; } ?>"><br/><br/>
 				<label>Message:</label><br/><br/>
-				<textarea name="message" placeholder="votre message"></textarea><br/><br/>
+				<textarea name="message" placeholder="votre message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br/><br/>
 				<input type="submit" value="Envoyer" name="mailform">
 			</form>
 		</article>
 	</section>
 </body>
 </html>
+<?php if(isset($msg)){echo $msg;} ?>
