@@ -4,7 +4,10 @@
 	<title>cv | Anthony Leborgne</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 <meta name="description" content="je m'appel anthony leborgne et je fais ce cv en ligne.">
+	<meta name="description" content="je m'appel anthony leborgne et je fais ce cv en ligne.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="keywords" content="anthony leborgne,Anthony,programmation">
+	<meta name="author" content="Anthony leborgne">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" href="img/Anonymous.ico">
 </head>
